@@ -1,0 +1,132 @@
+[ERROR] 2017-11-18 22:43:02.979 [main] Exceptions - This should have parametrs
+Trace: 
+com.company.Run.Main.main(Main.java:35)
+com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+
+[ERROR] 2017-11-18 22:43:16.240 [main] Exceptions - This should have parametrs
+Trace: 
+com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
+com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+
+[ERROR] 2017-11-18 22:50:25.619 [main] Exceptions - This should have parametrs
+Trace: 
+com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
+com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+
+[ERROR] 2017-11-18 23:41:50.589 [main] Exceptions - Number of polynoms should be greater then zero
+Trace: 
+com.company.Run.Main.main(Main.java:21)
+
+[ERROR] 2017-11-18 23:45:53.470 [main] Exceptions - You should enter integer number
+Trace: 
+com.company.Run.Main.main(Main.java:19)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-18 23:46:01.789 [main] Exceptions - You should enter integer number
+Trace: 
+com.company.Run.Main.main(Main.java:27)
+com.company.Run.Main.createPolynom(Main.java:57)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-18 23:46:24.699 [main] Exceptions - You should enter integer number
+Trace: 
+com.company.Run.Main.main(Main.java:27)
+com.company.Run.Main.createPolynom(Main.java:57)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-18 23:47:37.819 [main] Exceptions - Number of elements in polynom should be greater then zero
+Trace: 
+com.company.Run.Main.main(Main.java:27)
+com.company.Run.Main.createPolynom(Main.java:62)
+
+[ERROR] 2017-11-18 23:47:48.173 [main] Exceptions - You should enter integer number
+Trace: 
+com.company.Run.Main.main(Main.java:27)
+com.company.Run.Main.createPolynom(Main.java:60)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-18 23:49:00.271 [main] Exceptions - This should have parametrs
+Trace: 
+com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
+com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+
