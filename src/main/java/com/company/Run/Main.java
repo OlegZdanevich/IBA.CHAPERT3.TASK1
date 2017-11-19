@@ -23,6 +23,7 @@ public class Main {
             arrOfPolynoms = new Polynom[numberOfPolynoms];
 
             for (int i = 0; i < numberOfPolynoms; i++) {
+                System.out.println((i+1)+")");
                 arrOfPolynoms[i] = createPolynom();
             }
 
