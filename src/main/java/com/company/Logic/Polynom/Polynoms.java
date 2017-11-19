@@ -1,7 +1,7 @@
-package com.company.Polynom;
+package com.company.Logic.Polynom;
 
 import com.company.Exceptions.Exceptions;
-import com.company.Fraction.Fraction;
+import com.company.Logic.Fraction.Fraction;
 
 import java.util.ArrayList;
 

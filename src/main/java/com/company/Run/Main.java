@@ -1,9 +1,9 @@
 package com.company.Run;
 
 import com.company.Exceptions.Exceptions;
-import com.company.Fraction.Fraction;
-import com.company.Polynom.Polynom;
-import com.company.Polynom.Polynoms;
+import com.company.Logic.Fraction.Fraction;
+import com.company.Logic.Polynom.Polynom;
+import com.company.Logic.Polynom.Polynoms;
 
 import java.util.ArrayList;
 import java.util.Scanner;

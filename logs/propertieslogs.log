@@ -1,7 +1,7 @@
 [ERROR] 2017-11-18 22:43:02.979 [main] Exceptions - This should have parametrs
 Trace: 
 com.company.Run.Main.main(Main.java:35)
-com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+Polynoms.sum(Polynoms.java:14)
 
 [ERROR] 2017-11-18 22:43:16.240 [main] Exceptions - This should have parametrs
 Trace: 
@@ -30,7 +30,7 @@ java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMet
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
-com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+Polynoms.sum(Polynoms.java:14)
 
 [ERROR] 2017-11-18 22:50:25.619 [main] Exceptions - This should have parametrs
 Trace: 
@@ -59,7 +59,7 @@ java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMet
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
-com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+Polynoms.sum(Polynoms.java:14)
 
 [ERROR] 2017-11-18 23:41:50.589 [main] Exceptions - Number of polynoms should be greater then zero
 Trace: 
@@ -128,5 +128,12 @@ java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMet
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 com.company.Polynom.PolynomsTest.sum(PolynomsTest.java:61)
-com.company.Polynom.Polynoms.sum(Polynoms.java:14)
+Polynoms.sum(Polynoms.java:14)
+
+[ERROR] 2017-11-19 23:04:39.217 [main] Exceptions - You should enter integer number
+Trace: 
+com.company.Run.Main.main(Main.java:18)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 

@@ -1,6 +1,8 @@
 package com.company.Polynom;
 
-import com.company.Fraction.Fraction;
+import com.company.Logic.Fraction.Fraction;
+import com.company.Logic.Polynom.Polynom;
+import com.company.Logic.Polynom.Polynoms;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -48,7 +50,7 @@ public class PolynomsTest {
 
     @Test
     public void sum() {
-        assertEquals("(552/2240)x^3+(284/840)x^2+(104/192)x^1+(12/8)x^0",Polynoms.sum(polynom1,polynom2,polynom3).toString());
+        assertEquals("(552/2240)x^3+(284/840)x^2+(104/192)x^1+(12/8)x^0", Polynoms.sum(polynom1,polynom2,polynom3).toString());
 
         assertEquals("(22/112)x^3+(16/60)x^2+(10/24)x^1+(4/4)x^0",Polynoms.sum(polynom1,polynom2).toString());
 

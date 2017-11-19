@@ -1,4 +1,4 @@
-package com.company.Fraction;
+package com.company.Logic.Fraction;
 
 public abstract class FractionTools {
     public static Fraction sum(Fraction f1, Fraction f2) {

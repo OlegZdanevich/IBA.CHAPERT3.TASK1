@@ -1,4 +1,4 @@
-package com.company.Fraction;
+package com.company.Logic.Fraction;
 
 
 import com.company.Exceptions.Exceptions;
